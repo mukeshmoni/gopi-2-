@@ -154,7 +154,7 @@ async def send_good_night():
             shayari = random.choice(night_shayari)
             await app.send_photo(
                 chat_id,
-                photo="https://telegra.ph/file/01626a4a06b561efdd8dc.jpg",
+                photo="https://envs.sh/ouR.jpg",
                 caption=f"**{shayari}**",
                 reply_markup=add_buttons,
             )
@@ -178,7 +178,7 @@ async def send_good_morning():
             shayari = random.choice(morning_shayari)
             await app.send_photo(
                 chat_id,
-                photo="https://telegra.ph/file/01626a4a06b561efdd8dc.jpg",
+                photo="https://envs.sh/ouR.jpg",
                 caption=f"**{shayari}**",
                 reply_markup=add_buttons,
             )

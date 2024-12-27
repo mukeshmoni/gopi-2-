@@ -13,11 +13,11 @@ from pyrogram.enums import ParseMode
 from typing import Union, Optional
 
 random_photo = [
-    "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg",
-    "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg",
-    "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg",
-    "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg",
-    "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg",
+    "https://envs.sh/ouR.jpg",
+    "https://envs.sh/ouR.jpg",
+    "https://envs.sh/ouR.jpg",
+    "https://envs.sh/ouR.jpg",
+    "https://envs.sh/ouR.jpg",
 ]
 
 # --------------------------------------------------------------------------------- #
@@ -83,9 +83,9 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 # List of random photo links
 random_photo_links = [
-    "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg",
-    "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg",
-    "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg",
+    "https://envs.sh/ouR.jpg",
+    "https://envs.sh/ouR.jpg",
+    "https://envs.sh/ouR.jpg",
     # Add more links as needed
 ]
 

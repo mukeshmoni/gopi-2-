@@ -9,7 +9,7 @@ from MOONMUSIC.utils.database import get_served_chats
 # Convert AUTO_GCAST to boolean based on "On" or "Off"
 AUTO_GCASTS = AUTO_GCAST.strip().lower() == "on"
 
-START_IMG_URLS = "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg"
+START_IMG_URLS = "https://envs.sh/ouR.jpg"
 
 MESSAGE = f"""𝐈ᴛ'ꜱ 𝐓ʜᴇ 𝐌ᴏꜱᴛ 𝐓ʜᴇᴍᴇ-ᴀʙʟᴇ 𝐎ꜰ 𝐀ʟʟ 𝐒ᴩᴇᴄɪꜰɪᴄ 𝐁ᴏᴛꜱ 𝐓ʜᴇ 𝐍ᴇᴛᴡᴏʀᴋ 𝐈ꜱ 𝐁ᴀꜱᴇᴅ 𝐎ɴ 𝐃ᴇᴠᴇʟᴏᴩɪɴɢ 𝐁ᴏᴛꜱ 𝐀ɴᴅ 𝐆ɪᴠɪɴɢ 𝐓ʜᴇ 𝐒ᴄᴏᴩᴇ 𝐎ꜰ 𝐀ʟʟ 𝐅ᴇᴀᴛᴜʀᴇꜱ 𝐎ꜰ 𝐓ʜᴇ 𝐔ᴩᴄᴏᴍɪɴɢ 𝐁ᴏᴛꜱ.
 
