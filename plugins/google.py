@@ -3,7 +3,7 @@ import logging
 from googlesearch import search
 from pyrogram import filters
 
-from VIPMUSIC import app
+from MOONMUSIC import app
 from SafoneAPI import SafoneAPI
 
 
@@ -59,6 +59,6 @@ async def app(bot, message):
         await message.reply_text(e)
 
 
-__MODULE__ = "🍷 𝐆𖽙𖽙ɢ𖾘𖾝 😻"
+__MODULE__ = "🌙 𝐆𖽙𖽙ɢ𖾘𖾝 🫧"
 __HELP__ = """/google [ǫᴜᴇʀʏ] - ᴛᴏ sᴇᴀʀᴄʜ ᴏɴ ɢᴏᴏɢʟᴇ ᴀɴᴅ ɢᴇᴛ ʀᴇsᴜʟᴛs
 /app | /apps [ᴀᴘᴘ ɴᴀᴍᴇ] - ᴛᴏ ɢᴇᴛ ᴀᴘᴘ ɪɴғᴏ ᴛʜᴀᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴘʟᴀʏsᴛᴏʀᴇ"""

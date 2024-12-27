@@ -4,7 +4,7 @@ from pyrogram.enums import ChatMembersFilter
 
 from pyrogram.errors import FloodWait
 
-from VIPMUSIC import app
+from MOONMUSIC import app
 
 
 SPAM_CHATS = []
@@ -271,7 +271,7 @@ async def cancelcmd(_, message):
         return
 
 
-__MODULE__ = "🍷 𝐌𖽞𖽡𖾓𖽹𖽙𖽡 😻"
+__MODULE__ = "🌙 𝐌𖽞𖽡𖾓𖽹𖽙𖽡 🫧"
 __HELP__ = """
 
 @all ᴏʀ /all | /tagall ᴏʀ  @tagall | /mentionall ᴏʀ  @mentionall [ᴛᴇxᴛ] ᴏʀ [ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏ ᴍᴇssᴀɢᴇ] ᴛᴏ ᴛᴀɢ ᴀʟʟ ᴜsᴇʀ's ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ʙᴛ ʙᴏᴛ

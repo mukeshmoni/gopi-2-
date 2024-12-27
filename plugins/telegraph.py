@@ -1,7 +1,7 @@
 import os
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from VIPMUSIC import app
+from MOONMUSIC import app
 from TheApi import api
 
 @app.on_message(filters.command(["tgm", "tgt", "telegraph", "tl"]))
@@ -85,4 +85,4 @@ __HELP__ = """
 ʏᴏᴜ ᴍᴜsᴛ ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴍᴇᴅɪᴀ ғɪʟᴇ ғᴏʀ ᴛʜᴇ ᴜᴘʟᴏᴀᴅ ᴛᴏ ᴡᴏʀᴋ.
 """
 
-__MODULE__ = "🍷 𝐓𖾝𖾘𖾝ɢ𖾖𖽖𖽳𖽻 😻"
+__MODULE__ = "🌙 𝐓𖾝𖾘𖾝ɢ𖾖𖽖𖽳𖽻 🫧"

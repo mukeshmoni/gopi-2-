@@ -6,7 +6,7 @@ import pyfiglet
 from pyrogram import filters
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
 
-from VIPMUSIC import app
+from MOONMUSIC import app
 
 
 def figle(text):
@@ -53,7 +53,7 @@ async def figlet_handler(Client, query: CallbackQuery):
         return await query.answer(e, show_alert=True)
 
 
-__MODULE__ = "🍷 𝐅𖽹ɢ𖾘𖾝𖾓 😻"
+__MODULE__ = "🌙 𝐅𖽹ɢ𖾘𖾝𖾓 🫧"
 __HELP__ = """
 **ғɪɢʟᴇᴛ**
 

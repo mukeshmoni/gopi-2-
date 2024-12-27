@@ -5,9 +5,9 @@ from pyrogram import Client, filters
 from pyrogram.raw.functions.messages import DeleteHistory
 from pyrogram.types import Message
 
-from VIPMUSIC import app
-from VIPMUSIC.core.userbot import assistants
-from VIPMUSIC.utils.database import get_client
+from MOONMUSIC import app
+from MOONMUSIC.core.userbot import assistants
+from MOONMUSIC.utils.database import get_client
 
 
 @app.on_message(filters.command(["sg", "History"]))
@@ -60,7 +60,7 @@ async def sg(client: Client, message: Message):
     await lol.delete()
 
 
-__MODULE__ = "🍷 𝐇𖽹𖾗𖾓𖽙𖾖ʏ 😻"
+__MODULE__ = "🌙 𝐇𖽹𖾗𖾓𖽙𖾖ʏ 🫧"
 __HELP__ = """
 ## Hɪsᴛᴏʀʏ Cᴏᴍᴍᴀɴᴅs Hᴇᴘ
 

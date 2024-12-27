@@ -3,8 +3,8 @@ import asyncio
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from config import AUTO_GCAST, AUTO_GCAST_MSG, LOG_GROUP_ID
-from VIPMUSIC import app
-from VIPMUSIC.utils.database import get_served_chats
+from MOONMUSIC import app
+from MOONMUSIC.utils.database import get_served_chats
 
 # Convert AUTO_GCAST to boolean based on "On" or "Off"
 AUTO_GCASTS = AUTO_GCAST.strip().lower() == "on"
@@ -28,8 +28,8 @@ BUTTON = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                "🍷 𝐊𖽹𖽴𖽡𖽖𖽳 𝐌𖽞 😻",
-                url=f"https://t.me/Cutegirl_music_bot?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users",
+                "🌙 𝐊𖽹𖽴𖽡𖽖𖽳 𝐌𖽞 🫧",
+                url=f"https://t.me/MoonXmusics_bot?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users",
             )
         ]
     ]

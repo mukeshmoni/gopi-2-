@@ -6,7 +6,7 @@ from pyrogram.types import Message
 from pyrogram.enums import ChatMembersFilter
 
 from config import MONGO_DB_URI
-from VIPMUSIC import app
+from MOONMUSIC import app
 
 mongo = MongoCli(MONGO_DB_URI).Rankings
 
@@ -152,6 +152,6 @@ async def set_mataa(_, message: Message):
         await message.reply("**ᴅᴇᴛᴇᴄᴛᴇᴅ ᴘʀᴇᴛᴇɴᴅᴇʀ ᴜsᴀɢᴇ:\n/pretender on|off**")
 
 
-__MODULE__ = "🍷 𝐏𖽷𖽞𖾓𖽞𖽡𖽴𖽞𖽷 😻"
+__MODULE__ = "🌙 𝐏𖽷𖽞𖾓𖽞𖽡𖽴𖽞𖽷 🫧"
 __HELP__ = """
 /pretender - [Oɴ / ᴏғғ]  - ᴛᴏ ᴛᴜʀɴ ᴏɴ ᴏʀ ᴏғғ ᴘʀᴇᴛᴇɴᴅᴇʀ ғᴏʀ ʏᴏᴜ ᴄʜᴀᴛ ɪғ ᴀɴʏ ᴜsᴇʀ ᴄʜᴀɴɢᴇ ʜᴇʀ ᴜsᴇʀɴᴀᴍᴇ, ɴᴀᴍᴇ , ʙɪᴏ ʙᴏᴛ ᴡɪʟʟ sᴇɴᴅ ᴍᴇssᴀɢᴇ ɪɴ ʏᴏᴜʀ ᴄʜᴀᴛ"""

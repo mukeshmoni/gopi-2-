@@ -2,15 +2,15 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import ChatJoinRequest
 from pyrogram.errors.exceptions.bad_request_400 import UserAlreadyParticipant
-from VIPMUSIC import app
-from VIPMUSIC.core.mongo import mongodb
-from VIPMUSIC.misc import SUDOERS
-from VIPMUSIC.utils.keyboard import ikb
+from MOONMUSIC import app
+from MOONMUSIC.core.mongo import mongodb
+from MOONMUSIC.misc import SUDOERS
+from MOONMUSIC.utils.keyboard import ikb
 from utils.permissions import adminsOnly, member_permissions
 from pyrogram.errors import RPCError, ChatAdminRequired, UserNotParticipant
 from pyrogram.types import ChatPrivileges, Message
-from VIPMUSIC.misc import SUDOERS
-from VIPMUSIC.utils.database import get_assistant
+from MOONMUSIC.misc import SUDOERS
+from MOONMUSIC.utils.database import get_assistant
 approvaldb = mongodb.autoapprove
 
 

@@ -3,8 +3,8 @@ from datetime import datetime
 
 from pyrogram import filters
 
-from VIPMUSIC import app
-from VIPMUSIC.utils.database import get_assistant
+from MOONMUSIC import app
+from MOONMUSIC.utils.database import get_assistant
 
 # Assuming Userbot is defined elsewhere
 
@@ -54,7 +54,7 @@ async def check_bots_command(client, message):
         print(f"Error occurred during /botschk command: {e}")
 
 
-__MODULE__ = "🍷 𝐁𖽙𖾓 𝐂𖽻ᴋ 😻"
+__MODULE__ = "🌙 𝐁𖽙𖾓 𝐂𖽻ᴋ 🫧"
 __HELP__ = """
 ## Bᴏᴛs Cʜᴇᴄᴋ Cᴏᴍᴍᴀɴᴅ
 

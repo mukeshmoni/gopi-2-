@@ -1,7 +1,7 @@
 import requests
 from pyrogram import filters
 
-from VIPMUSIC import app
+from MOONMUSIC import app
 
 truth_api_url = "https://api.truthordarebot.xyz/v1/truth"
 dare_api_url = "https://api.truthordarebot.xyz/v1/dare"
@@ -57,4 +57,4 @@ __HELP__ = """
 ɪғ ʏᴏᴜ ᴇɴᴄᴏᴜɴᴛᴇʀ ᴀɴʏ ɪssᴜᴇs ᴡɪᴛʜ ғᴇᴛᴄʜɪɴɢ ǫᴜᴇsᴛɪᴏɴs, ᴘʟᴇᴀsᴇ ᴛʀʏ ᴀɢᴀɪɴ ʟᴀᴛᴇʀ.
 """
 
-__MODULE__ = "🍷 𝐓𖽷𖽪𖾓𖽻 😻"
+__MODULE__ = "🌙 𝐓𖽷𖽪𖾓𖽻 🫧"

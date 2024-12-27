@@ -2,8 +2,8 @@ from pyrogram.enums import ChatType, ParseMode
 from pyrogram.filters import command
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from VIPMUSIC import app
-from VIPMUSIC.utils.functions import MARKDOWN
+from MOONMUSIC import app
+from MOONMUSIC.utils.functions import MARKDOWN
 
 
 @app.on_message(command("markdownhelp"))

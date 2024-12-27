@@ -3,7 +3,7 @@ import asyncio
 from pyrogram import filters
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.errors import FloodWait
-from VIPMUSIC import app
+from MOONMUSIC import app
 from utils.permissions import adminsOnly
 
 chatQueue = []
@@ -55,7 +55,7 @@ async def remove(client, message):
                             processTime = lenDeletedList * 1
                             temp = await app.send_message(
                                 message.chat.id,
-                                f"🧭 | ᴛᴏᴛᴀʟ ᴏғ {lenDeletedList} ᴅᴇʟᴇᴛᴇᴅ ᴀᴄᴄᴏᴜɴᴛs ʜᴀs ʙᴇᴇɴ ᴅᴇᴛᴇᴄᴛᴇᴅ.\n🥀 | ᴇsᴛɪᴍᴀᴛᴇᴅ ᴛɪᴍᴇ: {processTime} sᴇᴄᴏɴᴅs ғʀᴏᴍ ɴᴏᴡ.",
+                                f"🧭 | ᴛᴏᴛᴀʟ ᴏғ {lenDeletedList} ᴅᴇʟᴇᴛᴇᴅ ᴀᴄᴄᴏᴜɴᴛs ʜᴀs ʙᴇᴇɴ ᴅᴇᴛᴇᴄᴛᴇᴅ.\n🌙 | ᴇsᴛɪᴍᴀᴛᴇᴅ ᴛɪᴍᴇ: {processTime} sᴇᴄᴏɴᴅs ғʀᴏᴍ ɴᴏᴡ.",
                             )
                             if stopProcess:
                                 stopProcess = False
@@ -89,7 +89,7 @@ async def remove(client, message):
         await asyncio.sleep(e.value)
 
 
-__MODULE__ = "🍷 𝐙𖽙𖽧𖽜𖽹𖽞𖾗 😻"
+__MODULE__ = "🌙 𝐙𖽙𖽧𖽜𖽹𖽞𖾗 🫧"
 __HELP__ = """
 **commands:**
 - /zombies: ʀᴇᴍᴏᴠᴇ ᴅᴇʟᴇᴛᴇᴅ ᴀᴄᴄᴏᴜɴᴛs ғʀᴏᴍ ᴛʜᴇ ɢʀᴏᴜᴘ.

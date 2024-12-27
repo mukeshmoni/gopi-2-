@@ -2,7 +2,7 @@ import re
 import requests
 from pyrogram import filters
 
-from VIPMUSIC import app
+from MOONMUSIC import app
 from config import LOG_GROUP_ID
 
 
@@ -51,7 +51,7 @@ async def download_instagram_video(client, message):
             return await message.reply_text("Fᴀɪʟᴇᴅ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ʀᴇᴇʟ")
 
 
-__MODULE__ = "🍷 𝐑𖽞𖽞𖾘 😻"
+__MODULE__ = "🌙 𝐑𖽞𖽞𖾘 🫧"
 __HELP__ = """
 **ɪɴsᴛᴀɢʀᴀᴍ ʀᴇᴇʟ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ:**
 

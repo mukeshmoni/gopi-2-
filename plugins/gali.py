@@ -3,7 +3,7 @@ import random
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from VIPMUSIC import app
+from MOONMUSIC import app
 
 GALI = [ 
      "𝐼𝑡ℎ𝑎 𝑃𝑎𝑟𝑡ℎ𝑎 𝑀𝑎𝑡𝑡𝑢𝑚 𝑁𝑒 𝑈𝑟𝑢𝑝𝑎𝑑𝑎𝑣𝑎 𝑃𝑜𝑟𝑎 𝑃𝑜𝑖 𝑝𝑜𝑙𝑎𝑝𝑎 𝑃𝑎𝑟𝑢 𝑑𝑎 𝑆𝑖𝑙𝑢𝑘𝑢",
@@ -30,7 +30,7 @@ async def help(client: Client, message: Message):
     )
 
 
-__MODULE__ = "🍷 𝐆𖽖𖾘ɪ 😻"
+__MODULE__ = "🌙 𝐆𖽖𖾘ɪ 🫧"
 __HELP__ = """
 **𝐆𝐚𝐥𝐢 𝐂𝐨𝐦𝐦𝐚𝐧𝐝**
 

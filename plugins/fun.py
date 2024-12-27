@@ -2,7 +2,7 @@ import requests
 from pyrogram import filters
 from pyrogram.types import Message
 
-from VIPMUSIC import app
+from MOONMUSIC import app
 
 
 @app.on_message(
@@ -65,7 +65,7 @@ async def bored_command(client, message):
         await message.reply("Fᴀɪʟᴇᴅ ᴛᴏ ғᴇᴛᴄʜ ᴀᴄᴛɪᴠɪᴛʏ.")
 
 
-__MODULE__ = "🍷 𝐅𖽪𖽡 😻"
+__MODULE__ = "🌙 𝐅𖽪𖽡 🫧"
 __HELP__ = """
 **ʜᴀᴠɪɴɢ ꜰᴜɴ:**
 

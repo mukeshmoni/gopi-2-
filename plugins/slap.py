@@ -1,4 +1,4 @@
-from VIPMUSIC import app
+from MOONMUSIC import app
 from pyrogram import filters
 import nekos
 
@@ -21,4 +21,4 @@ __HELP__ = """
 Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 - /sʟᴀᴘ: Sʟᴀᴘs sᴏᴍᴇᴏɴᴇ. Iғ ᴜsᴇᴅ ᴀs ᴀ ʀᴇᴘʟʏ, sʟᴀᴘs ᴛʜᴇ ʀᴇᴘʟɪᴇᴅ ᴜsᴇʀ.
 """
-__MODULE__ = "🍷 𝐒𖾘𖽖𖽳 😻"
+__MODULE__ = "🌙 𝐒𖾘𖽖𖽳 🫧"

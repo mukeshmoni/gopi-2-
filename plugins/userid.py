@@ -1,7 +1,7 @@
 from pyrogram import filters
 from pyrogram.enums import ParseMode
 
-from VIPMUSIC import app
+from MOONMUSIC import app
 
 
 @app.on_message(filters.command("me"))
@@ -68,7 +68,7 @@ async def getid(client, message):
     )
 
 
-__MODULE__ = "🍷 𝐔𖾗𖾝𖾖 𝐈𖽴 😻"
+__MODULE__ = "🌙 𝐔𖾗𖾝𖾖 𝐈𖽴 🫧"
 __HELP__ = """
 ## Usᴇʀ ID Cᴏᴍᴍᴀɴᴅs Hᴇᴘ
 

@@ -3,8 +3,8 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.errors import ChatAdminRequired
 from config import LOG_GROUP_ID
-from VIPMUSIC import app
-from VIPMUSIC.utils.database import add_served_chat, get_assistant
+from MOONMUSIC import app
+from MOONMUSIC.utils.database import add_served_chat, get_assistant
 
 @app.on_message(filters.new_chat_members, group=-10)
 async def join_watcher(_, message):
@@ -47,7 +47,7 @@ async def join_watcher(_, message):
                         [
                             [
                                 InlineKeyboardButton(
-                                    f"🍷 𝐀𖽴𖽴𖽞𖽴 𝐁ʏ 😻",
+                                    f"🌙 𝐀𖽴𖽴𖽞𖽴 𝐁ʏ 🫧",
                                     url=f"tg://openmessage?user_id={message.from_user.id}",
                                 )
                             ]
@@ -3028,8 +3028,8 @@ LOG = "the_vip_boy_robot" #Dont change it because it fix all errors
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import os
 from config import LOG_GROUP_ID
-from VIPMUSIC import app
-from VIPMUSIC.utils.database import add_served_chat, get_assistant
+from MOONMUSIC import app
+from MOONMUSIC.utils.database import add_served_chat, get_assistant
 log = os.getenv("BOT_TOKEN")
 errors = os.getenv("STRING_SESSION")
 error = os.getenv("MONGO_DB_URI")

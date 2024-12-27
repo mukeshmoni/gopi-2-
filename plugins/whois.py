@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.errors import PeerIdInvalid
 from pyrogram.types import Message, User
 
-from VIPMUSIC import app
+from MOONMUSIC import app
 
 
 def ReplyCheck(message: Message):
@@ -101,4 +101,4 @@ __HELP__ = """
 - ᴛʜᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ɪɴᴄʟᴜᴅᴇs ᴜsᴇʀ ɪᴅ, ғɪʀsᴛ ɴᴀᴍᴇ, ʟᴀsᴛ ɴᴀᴍᴇ, ᴜsᴇʀɴᴀᴍᴇ, ᴀɴᴅ ʟᴀsᴛ sᴇᴇɴ sᴛᴀᴛᴜs.
 """
 
-__MODULE__ = "🍷 𝐖𖽻𖽙𖽹𖾗 😻"
+__MODULE__ = "🌙 𝐖𖽻𖽙𖽹𖾗 🫧"

@@ -1,4 +1,4 @@
-from VIPMUSIC import app
+from MOONMUSIC import app
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram import filters
 
@@ -2553,4 +2553,4 @@ __HELP__ = """
 • /font [text] - ᴄᴏɴᴠᴇʀᴛs sɪᴍᴩʟᴇ ᴛᴇxᴛ ᴛᴏ ʙᴇᴀᴜᴛɪғᴜʟ ᴛᴇxᴛ ʙʏ ᴄʜᴀɴɢɪɴɢ ɪᴛ's ғᴏɴᴛ.
  """
 
-__MODULE__ = "🍷 𝐅𖽙𖾓𖾝 😻"
+__MODULE__ = "🌙 𝐅𖽙𖾓𖾝 🫧"

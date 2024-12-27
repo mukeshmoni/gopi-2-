@@ -1,4 +1,4 @@
-from VIPMUSIC.core.mongo import mongodb
+from MOONMUSIC.core.mongo import mongodb
 
 greetingsdb = mongodb.greetings
 

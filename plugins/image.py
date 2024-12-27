@@ -1,6 +1,6 @@
 from pyrogram.types import InputMediaPhoto
 from config import BANNED_USERS
-from VIPMUSIC import app
+from MOONMUSIC import app
 from pyrogram import filters
 from TheApi import api
 

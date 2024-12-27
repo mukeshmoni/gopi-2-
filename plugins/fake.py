@@ -1,7 +1,7 @@
 import requests
 from pyrogram import filters
 
-from VIPMUSIC import app
+from MOONMUSIC import app
 
 
 @app.on_message(filters.command(["FAKE", "fake"]))
@@ -46,7 +46,7 @@ async def fkadress(_, message):
         await message.reply_text("ᴏᴏᴘs ɴᴏᴛ ғᴏᴜɴᴅ ᴀɴʏ ᴀᴅᴅʀᴇss.\nᴛʀʏ ᴀɢᴀɪɴ")
 
 
-__MODULE__ = "🍷 𝐅𖽖ᴋ𖾝 😻"
+__MODULE__ = "🌙 𝐅𖽖ᴋ𖾝 🫧"
 __HELP__ = """
 
 /fake [ᴄᴏᴜɴᴛʀʏ ɴᴀᴍᴇ ] - ᴛᴏ ɢᴇᴛ ʀᴀɴᴅᴏᴍ ᴀᴅᴅʀᴇss"""

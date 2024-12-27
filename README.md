@@ -1,7 +1,7 @@
-# Extra Plugins For [VIPMUSIC](https://github.com/THE-VIP-BOY-OP/VIP-MUSIC)
+# Extra Plugins For [MOONMUSIC](https://github.com/THE-VIP-BOY-OP/VIP-MUSIC)
 
 
-## Deployment for [VIPMUSIC](https://github.com/THE-VIP-BOY-OP/VIP-MUSIC)
+## Deployment for [MOONMUSIC](https://github.com/THE-VIP-BOY-OP/VIP-MUSIC)
 
 #### 🚀 Heroku Deployment
 
@@ -12,13 +12,13 @@
 
 ### 🖇 VPS Deployment
 - Get your [Necessary Variables](https://github.com/THE-VIP-BOY-OP/VIP-MUSIC/blob/master/sample.env)
-- clone repo : `git clone https://github.com/THE-VIP-BOY-OP/VIPMUSIC && cd VIPMUSIC`
+- clone repo : `git clone https://github.com/THE-VIP-BOY-OP/MOONMUSIC && cd MOONMUSIC`
 - Setup by : `bash setup`
 - Install tmux to keep running your bot when you close the terminal by :
 `sudo apt install tmux && tmux`
 - Finally run the bot by :
-`python3 -m VIPMUSIC`
+`python3 -m MOONMUSIC`
 - For getting out from tmux session : Press `Ctrl+b` and then `d`<br>
 
 
-# For more help checkout [VIPMUSIC](https://github.com/THE-VIP-BOY-OP/VIP-MUSIC)
+# For more help checkout [MOONMUSIC](https://github.com/THE-VIP-BOY-OP/VIP-MUSIC)

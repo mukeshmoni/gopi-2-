@@ -1,7 +1,7 @@
 from pyrogram import filters
 from TheApi import api
 
-from VIPMUSIC import app
+from MOONMUSIC import app
 
 
 @app.on_message(filters.command(["write"]))
@@ -23,7 +23,7 @@ async def write(client, message):
         await nan.edit(e)
 
 
-__MODULE__ = "🍷 𝐖𖽷𖽹𖾓𖾝 😻"
+__MODULE__ = "🌙 𝐖𖽷𖽹𖾓𖾝 🫧"
 __HELP__ = """
 **COMMANDS**:
 - /write: ᴡʀɪᴛᴇ ᴛᴇxᴛ ᴏɴ ᴀɴ ᴄʟᴏᴜᴅ ᴀɴᴅ ɢᴇᴛ ᴀɴ ᴇᴅɪᴛᴇᴅ ᴘʜᴏᴛᴏ.

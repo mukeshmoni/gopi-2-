@@ -4,8 +4,8 @@ from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from VIPMUSIC import app
-from VIPMUSIC.misc import SUDOERS
+from MOONMUSIC import app
+from MOONMUSIC.misc import SUDOERS
 
 
 # Command handler for /givelink command
@@ -78,7 +78,7 @@ async def link_command_handler(client: Client, message: Message):
             os.remove(file_name)
 
 
-__MODULE__ = "🍷 𝐆𖽷𖽙𖽪𖽳 𝐋𖽹𖽡ᴋ 😻"
+__MODULE__ = "🌙 𝐆𖽷𖽙𖽪𖽳 𝐋𖽹𖽡ᴋ 🫧"
 __HELP__ = """
 - `/ɢɪᴠᴇɪɴᴋ`: Gᴇᴛ ᴛʜᴇ ɪɴᴠɪᴛᴇ ɪɴᴋ ғᴏʀ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴄʜᴀᴛ.
 - `/ɪɴᴋ ɢʀᴏᴜᴘ_ɪᴅ`: Gᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀɴᴅ ɢᴇɴᴇʀᴀᴛᴇ ᴀɴ ɪɴᴠɪᴛᴇ ɪɴᴋ ғᴏʀ ᴛʜᴇ sᴘᴇᴄɪғɪᴇᴅ ɢʀᴏᴜᴘ ID.

@@ -4,7 +4,7 @@ from httpx import AsyncClient, Timeout
 from pyrogram import filters
 from pyrogram.types import Message
 
-from VIPMUSIC import app
+from MOONMUSIC import app
 
 fetch = AsyncClient(
     http2=True,
@@ -321,4 +321,4 @@ __HELP__ = """
 ᴍᴀᴋᴇ sᴜʀᴇ ᴛᴏ ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ ғᴏʀ ᴛʜᴇ ǫᴜᴏᴛᴇ ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴡᴏʀᴋ.
 """
 
-__MODULE__ = "🍷 𝐐𖽪𖽙𖾓𖾝 😻"
+__MODULE__ = "🌙 𝐐𖽪𖽙𖾓𖾝 🫧"

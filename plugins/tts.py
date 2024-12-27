@@ -3,7 +3,7 @@ import io
 from gtts import gTTS
 from pyrogram import filters
 
-from VIPMUSIC import app
+from MOONMUSIC import app
 
 
 @app.on_message(filters.command("tts"))
@@ -38,4 +38,4 @@ __HELP__ = """
 ᴍᴀᴋᴇ sᴜʀᴇ ᴛᴏ ᴘʀᴏᴠɪᴅᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴀғᴛᴇʀ ᴛʜᴇ `/tts` ᴄᴏᴍᴍᴀɴᴅ.
 """
 
-__MODULE__ = "🍷 𝐓𖾓𖾗 😻"
+__MODULE__ = "🌙 𝐓𖾓𖾗 🫧"

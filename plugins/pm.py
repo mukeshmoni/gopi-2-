@@ -1,7 +1,7 @@
 import re
 from pyrogram import filters
 import random
-from VIPMUSIC import app
+from MOONMUSIC import app
 
 
 @app.on_message(filters.command(["m","m","m","m"], prefixes=["p","d","P","D"]))

@@ -2,7 +2,7 @@ import random
 
 from pyrogram import filters
 
-from VIPMUSIC import app
+from MOONMUSIC import app
 
 
 def get_random_message(love_percentage):
@@ -48,7 +48,7 @@ def love_command(client, message):
     app.send_message(message.chat.id, response)
 
 
-__MODULE__ = "🍷 𝐋𖽙ᴠ𖽞 😻"
+__MODULE__ = "🌙 𝐋𖽙ᴠ𖽞 🫧"
 __HELP__ = """
 **ʟᴏᴠᴇ ᴄᴀʟᴄᴜʟᴀᴛᴏʀ:**
 

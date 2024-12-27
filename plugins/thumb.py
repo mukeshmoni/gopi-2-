@@ -2,7 +2,7 @@ import re
 
 from pyrogram import filters
 
-from VIPMUSIC import app
+from MOONMUSIC import app
 from youtubesearchpython.__future__ import VideosSearch
 
 
@@ -66,4 +66,4 @@ __HELP__ = """
 ᴘʀᴏᴠɪᴅᴇ ᴀ ᴠᴀʟɪᴅ ʏᴏᴜᴛᴜʙᴇ ᴜʀʟ ᴀғᴛᴇʀ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ᴛʜᴜᴍʙɴᴀɪʟ.
 """
 
-__MODULE__ = "🍷 𝐓𖽻𖽪𖽧𖽜 😻"
+__MODULE__ = "🌙 𝐓𖽻𖽪𖽧𖽜 🫧"

@@ -1,4 +1,4 @@
-from VIPMUSIC import app
+from MOONMUSIC import app
 from pyrogram import filters
 import nekos
 
@@ -17,7 +17,7 @@ async def huggg(client, message):
         await message.reply_text(f"Error: {e}")
 
 
-__MODULE__ = "🍷 𝐇𖽪ɢ 😻"
+__MODULE__ = "🌙 𝐇𖽪ɢ 🫧"
 __HELP__ = """
 Tʜɪs ʙᴏᴛ ʀᴇsᴘᴏɴᴅs ᴛᴏ ᴛʜᴇ ғᴏʟʟᴏᴡɪɴɢ ᴄᴏᴍᴍᴀɴᴅs:
 

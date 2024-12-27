@@ -2,10 +2,10 @@
 from pyrogram import filters
 from pyrogram.enums import ChatType
 from strings import get_string
-from VIPMUSIC import app
-from VIPMUSIC.utils import VIPbin
+from MOONMUSIC import app
+from MOONMUSIC.utils import VIPbin
 
-from VIPMUSIC.utils.database import get_assistant, get_lang
+from MOONMUSIC.utils.database import get_assistant, get_lang
 import asyncio
 from os import getenv
 from dotenv import load_dotenv
@@ -13,8 +13,8 @@ from pyrogram import Client
 from dotenv import load_dotenv
 import config
 
-from VIPMUSIC.logging import LOGGER
-from VIPMUSIC.utils.database import (
+from MOONMUSIC.logging import LOGGER
+from MOONMUSIC.utils.database import (
     delete_filter,
     get_cmode,
     get_lang,
@@ -24,7 +24,7 @@ from VIPMUSIC.utils.database import (
     is_nonadmin_chat,
     set_loop,
 )
-from VIPMUSIC.core.call import VIP
+from MOONMUSIC.core.call import VIP
 
 
 @app.on_message(
@@ -85,13 +85,13 @@ from pyrogram import filters
 from pyrogram.types import *
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from VIPMUSIC import app
+from MOONMUSIC import app
 
 
 
 @app.on_message(filters.video_chat_members_invited)
 async def brah3(app: app, message: Message):
-    text = f"➻ {message.from_user.mention}\n\n**𝑉𝑐 𝑉𝑎 𝑃𝑎𝑛𝑔𝑢𝑢𝑢 🫀🫂💙**\n\n**🍷 **"
+    text = f"➻ {message.from_user.mention}\n\n**𝑉𝑐 𝑉𝑎 𝑃𝑎𝑛𝑔𝑢𝑢𝑢 🫀🫂💙**\n\n**🌙 **"
     x = 0
     for user in message.video_chat_members_invited.users:
         try:

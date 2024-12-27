@@ -4,7 +4,7 @@ import time
 
 from pyrogram import filters
 from pyrogram.enums import PollType, ChatAction
-from VIPMUSIC import app
+from MOONMUSIC import app
 
 
 last_command_time = {}
@@ -48,5 +48,5 @@ async def quiz(client, message):
     )
 
 
-__MODULE__ = "🍷 𝐐𖽪𖽹ᴢ 😻"
+__MODULE__ = "🌙 𝐐𖽪𖽹ᴢ 🫧"
 __HELP__ = " /quiz - ᴛᴏ ɢᴇᴛ ᴀɴ ʀᴀɴᴅᴏᴍ ǫᴜɪᴢ"

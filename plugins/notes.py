@@ -6,8 +6,8 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from config import BANNED_USERS
-from VIPMUSIC import app
-from VIPMUSIC.utils.database import (
+from MOONMUSIC import app
+from MOONMUSIC.utils.database import (
     delete_note,
     deleteall_notes,
     get_note,
@@ -15,12 +15,12 @@ from VIPMUSIC.utils.database import (
     save_note,
 )
 from utils.error import capture_err
-from VIPMUSIC.utils.functions import (
+from MOONMUSIC.utils.functions import (
     check_format,
     extract_text_and_keyb,
     get_data_and_name,
 )
-from VIPMUSIC.utils.keyboard import ikb
+from MOONMUSIC.utils.keyboard import ikb
 from utils.permissions import adminsOnly, member_permissions
 
 
@@ -383,7 +383,7 @@ async def delete_all_cb(_, cb):
         await cb.message.delete()
 
 
-__MODULE__ = "🍷 𝐍𖽙𖾓𖾝𖾗 😻"
+__MODULE__ = "🌙 𝐍𖽙𖾓𖾝𖾗 🫧"
 __HELP__ = """
 **ɴᴏᴛᴇꜱ:**
 

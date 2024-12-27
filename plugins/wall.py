@@ -4,7 +4,7 @@ import requests
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from VIPMUSIC import app
+from MOONMUSIC import app
 
 
 @app.on_message(filters.command(["wall", "wallpaper"]))
@@ -24,7 +24,7 @@ async def wall(_, message: Message):
         ran = random.randint(0, 7)
         await message.reply_photo(
             photo=url[ran]["imageUrl"],
-            caption=f"🥀 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {message.from_user.mention}",
+            caption=f"🌙 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {message.from_user.mention}",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton("ʟɪɴᴋ", url=url[ran]["imageUrl"])],
@@ -38,7 +38,7 @@ async def wall(_, message: Message):
         )
 
 
-__MODULE__ = "🍷 𝐖𖽖𖾘𖾘 😻"
+__MODULE__ = "🌙 𝐖𖽖𖾘𖾘 🫧"
 __HELP__ = """
 **COMMANDS:**
 

@@ -3,7 +3,7 @@ import asyncio
 from pyrogram import enums, filters
 from pyrogram.errors import FloodWait
 
-from VIPMUSIC import app
+from MOONMUSIC import app
 
 
 @app.on_message(filters.command("bots") & filters.group)
@@ -29,7 +29,7 @@ async def bots(client, message):
         await asyncio.sleep(e.value)
 
 
-__MODULE__ = "🍷 𝐁𖽙𖾓𖾗 😻"
+__MODULE__ = "🌙 𝐁𖽙𖾓𖾗 🫧"
 __HELP__ = """
 **ʙᴏᴛs**
 

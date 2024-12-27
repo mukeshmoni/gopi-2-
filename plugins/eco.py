@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
-from VIPMUSIC.misc import SUDOERS
-from VIPMUSIC import app 
+from MOONMUSIC.misc import SUDOERS
+from MOONMUSIC import app 
 
 # /eco command handler
 @app.on_message(filters.command("eco", prefixes="/") & filters.reply & SUDOERS)

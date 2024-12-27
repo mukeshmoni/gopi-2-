@@ -18,7 +18,7 @@ from pyrogram.errors import (
 from pyrogram.file_id import FileId
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from VIPMUSIC import app
+from MOONMUSIC import app
 from utils.error import capture_err
 
 BOT_USERNAME = app.username
@@ -313,7 +313,7 @@ async def kang(client, message: Message):
 
 
 
-__MODULE__ = "🍷 𝐒𖾓𖽹𖽝ᴋ𖽞𖽷 😻"
+__MODULE__ = "🌙 𝐒𖾓𖽹𖽝ᴋ𖽞𖽷 🫧"
 __HELP__ = """
 **COMMANDS:**
 

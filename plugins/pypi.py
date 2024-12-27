@@ -2,7 +2,7 @@ import requests
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from VIPMUSIC import app
+from MOONMUSIC import app
 
 
 def get_pypi_info(package_name):
@@ -49,7 +49,7 @@ async def pypi_info_command(client, message):
         )
 
 
-__MODULE__ = "🍷 𝐏ʏ𖽳𖽹 😻"
+__MODULE__ = "🌙 𝐏ʏ𖽳𖽹 🫧"
 __HELP__ = """
 **ᴄᴏᴍᴍᴀɴᴅs:**
 • /pypi <package_name>`: Get details about a specified Python package from PyPI.

@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.enums import ChatAction
 from TheApi import api
 
-from VIPMUSIC import app
+from MOONMUSIC import app
 from config import BANNED_USERS
 
 
@@ -24,7 +24,7 @@ async def chatgpt_chat(bot, message):
     await message.reply_text(results)
 
 
-__MODULE__ = "🍷 𝐂𖽻𖽖𖾓ɢ𖽳𖾓 😻"
+__MODULE__ = "🌙 𝐂𖽻𖽖𖾓ɢ𖽳𖾓 🫧"
 __HELP__ = """
 /advice - ɢᴇᴛ ʀᴀɴᴅᴏᴍ ᴀᴅᴠɪᴄᴇ ʙʏ ʙᴏᴛ
 /ai [ǫᴜᴇʀʏ] - ᴀsᴋ ʏᴏᴜʀ ǫᴜᴇsᴛɪᴏɴ ᴡɪᴛʜ ᴄʜᴀᴛɢᴘᴛ's ᴀɪ
